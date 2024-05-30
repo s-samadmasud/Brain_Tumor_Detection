@@ -26,10 +26,26 @@ The project aims to develop a model that can accurately classify brain MRI scans
 
 2. **Create a virtual environment:**
 
-Highly recommended to isolate project dependencies and avoid conflicts. Here's an example using venv (Python 3.3+):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Linux/macOS
-   venv\Scripts\activate.bat  # Windows
+   Highly recommended to isolate project dependencies and avoid conflicts. Here's an example using venv (Python 3.3+):
+      ```bash
+      python -m venv venv
+      source venv/bin/activate  # Linux/macOS
+      venv\Scripts\activate.bat  # Windows
+3. **Activate the virtual environment (commands above)**
+4. **Install dependencies:**
+      ```bash
+      pip install -r requirements.txt
+Note: If you don't have a requirements.txt file, create one by listing all the dependencies mentioned above, one per line. 
 
-  
+## Data Acquisition
+1. Download the brain MRI dataset from Kaggle: https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection.
+2. Extract the downloaded archive.
+3. Move the extracted files to the images folder within this repository. Create the images folder if it doesn't exist.
+
+## Directory Structure
+   brain-tumor-detection/
+      images/  # Folder for storing the brain MRI dataset
+      Notebook # Folder for Jupyter Notebooks with code and visualizations 
+      requirements.txt  # File listing project dependencies
+      scripts/  # Folder for helper scripts (data preprocessing, training, testing, etc.) 
+       README.md  # This file
