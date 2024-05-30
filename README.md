@@ -23,3 +23,13 @@ The project aims to develop a model that can accurately classify brain MRI scans
 
    ```bash
    git clone [https://github.com/your-username/brain-tumor-detection.git](https://github.com/your-username/brain-tumor-detection.git)
+
+2. **Create a virtual environment:**
+
+Highly recommended to isolate project dependencies and avoid conflicts. Here's an example using venv (Python 3.3+):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/macOS
+   venv\Scripts\activate.bat  # Windows
+
+  
