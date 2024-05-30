@@ -22,7 +22,7 @@ The project aims to develop a model that can accurately classify brain MRI scans
 1. **Clone this repository:**
 
    ```bash
-   git clone [https://github.com/your-username/brain-tumor-detection.git](https://github.com/your-username/brain-tumor-detection.git)
+   git clone https://github.com/your-username/brain-tumor-detection.git
 
 2. **Create a virtual environment:**
 
