@@ -26,11 +26,12 @@ The project aims to develop a model that can accurately classify brain MRI scans
 
 2. **Create a virtual environment:**
 
-   Highly recommended to isolate project dependencies and avoid conflicts. Here's an example using venv (Python 3.3+):
+   Highly recommended to isolate project dependencies and avoid conflicts. Here's an example using venv (I use Python 3.10):
       ```bash
       python -m venv venv
       source venv/bin/activate  # Linux/macOS
       venv\Scripts\activate.bat  # Windows
+
 3. **Activate the virtual environment (commands above)**
 4. **Install dependencies:**
       ```bash
