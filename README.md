@@ -42,10 +42,4 @@ Note: If you don't have a requirements.txt file, create one by listing all the d
 2. Extract the downloaded archive.
 3. Move the extracted files to the images folder within this repository. Create the images folder if it doesn't exist.
 
-## Directory Structure
-   brain-tumor-detection/
-      images/  # Folder for storing the brain MRI dataset
-      Notebook # Folder for Jupyter Notebooks with code and visualizations 
-      requirements.txt  # File listing project dependencies
-      scripts/  # Folder for helper scripts (data preprocessing, training, testing, etc.) 
-       README.md  # This file
+
