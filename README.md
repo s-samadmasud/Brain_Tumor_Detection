@@ -37,11 +37,6 @@ The project aims to develop a model that can accurately classify brain MRI scans
       pip install -r requirements.txt
 Note: If you don't have a requirements.txt file, create one by listing all the dependencies mentioned above, one per line. 
 
-## Directory Structure
-
-brain-tumor-detection/
-  images/  # Folder for storing the brain MRI dataset
-
 ## Data Acquisition
 1. Download the brain MRI dataset from Kaggle: https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection.
 2. Extract the downloaded archive.
